@@ -19,6 +19,7 @@ public class GerarRegistroD120 {
 		sb.append("|").append(Util.preencheRegistro(registroD120.getCod_mun_dest()));
 		sb.append("|").append(Util.preencheRegistro(registroD120.getVeic_id()));
 		sb.append("|").append(Util.preencheRegistro(registroD120.getUf_id()));
+		sb.append("|").append('\n');
 
 		return sb;
 	}
